@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- google font -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- font awesome -->
+		<link rel="stylesheet" href="./CSS/style.css" />
+		<script
+			src="https://kit.fontawesome.com/c539d32fc7.js"
+			crossorigin="anonymous"
+		></script>
+
+		<title>Welcome to KakaoTalk</title>
+	</head>
+	<body>
+		<!-- status-bar -->
+		<div class="status-bar">
+			<div class="status-bar__col">
+				<span>No Service</span>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<div class="status-bar__col">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__col">
+				<i class="fas fa-lock"></i>
+				<span>20%</span>
+				<i class="fas fa-battery-quarter"></i>
+				<i class="fas fa-bolt"></i>
+			</div>
+		</div>
+
+		<div class="container">
+			<!-- header -->
+			<header class="welcome">
+				<h1 class="welcome__title">Welcome to KakaoTalk</h1>
+				<div class="welcome__text">
+					If you have a Kakao Account, <br />log in with your email or phone
+					number.
+				</div>
+			</header>
+
+			<!-- form -->
+			<form action="friends.html" method="get" class="login-form">
+				<input type="text" name="username" placeholder="Email or phone number"/>
+				<input type="password" name="password" placeholder="Password" />
+				<button class="logIn">Log In</button>
+				<button class="signUp">Sign Up</button>
+				<a href="#">Find Kakao Account or Password</a>
+			</form>
+		</div>
+	</body>
+</html>
