@@ -1,0 +1,22 @@
+.main-header{
+  /* background-color: skyblue; */
+  margin-top: 40px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 18.5px;
+  width: 90vw;
+}
+
+.main-header h1 {
+  opacity: 0.8;
+}
+
+.main-header__icons i{
+  display: inline-block;
+  margin: 0 var(--s-spacing);
+  font-size: var(--fs-xl);
+  color: var(--dark-grey);
+}
