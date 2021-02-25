@@ -1,0 +1,49 @@
+/* components */
+@import "/css/components/status-bar.css";
+@import "/CSS/components/welcome.css";
+
+/* screens */
+
+:root {
+	/* color */
+	--main-yellow: #fee101;
+	--basic-chat: #abc0d1;
+	--dark-grey: rgb(99, 99, 99);
+	--grey: #d4d5d9;
+	--light-grey: #ececec;
+	/* size */
+	--fs-xs: 12px;
+	--fs-x: 14px;
+	--fs-m: 16px;
+	--fs-l: 18px;
+	--fs-xl: 20px;
+	--fs-2xl: 22px;
+	--fs-3xl: 24px;
+	/* spacing */
+	--small-spacing: 5px;
+	--medium-spacing: 10px;
+	--large-spacing: 20px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: var(--dark-grey);
+}
+
+input,
+button {
+	border: none;
+}
+
+.main-container {
+	margin: var(--large-spacing);
+}
