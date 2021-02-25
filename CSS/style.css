@@ -1,6 +1,8 @@
 /* components */
 @import "/css/components/status-bar.css";
 @import "/CSS/components/welcome.css";
+@import "/css/components/main-header.css";
+@import "/css/components/user-component.css";
 
 /* screens */
 
@@ -11,7 +13,8 @@
 	--dark-grey: rgb(99, 99, 99);
 	--grey: #d4d5d9;
 	--light-grey: #ececec;
-	/* size */
+
+	/* font-size */
 	--fs-xs: 12px;
 	--fs-x: 14px;
 	--fs-m: 16px;
@@ -19,10 +22,17 @@
 	--fs-xl: 20px;
 	--fs-2xl: 22px;
 	--fs-3xl: 24px;
+
+	/* img-size */
+	--img-s: 30px;
+	--img-m: 40px;
+	--img-l: 50px;
+
 	/* spacing */
-	--small-spacing: 5px;
-	--medium-spacing: 10px;
-	--large-spacing: 20px;
+	--s-spacing: 5px;
+	--m-spacing: 10px;
+	--l-spacing: 15px;
+	--xl-spacing: 20px;
 }
 
 * {
@@ -31,7 +41,7 @@
 }
 
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: "Gamja Flower", cursive;
 }
 
 a {
@@ -45,5 +55,5 @@ button {
 }
 
 .main-container {
-	margin: var(--large-spacing);
+	margin: var(--l-spacing);
 }
