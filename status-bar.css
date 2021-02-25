@@ -1,0 +1,11 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  /* 나중에 지울 배경색 */
+  /* background: yellow; */
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
