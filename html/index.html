@@ -8,12 +8,12 @@
 		<!-- google font -->
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap"
 			rel="stylesheet"
 		/>
 
 		<!-- font awesome -->
-		<link rel="stylesheet" href="./CSS/style.css" />
+		<link rel="stylesheet" href="/CSS/style.css" />
 		<script
 			src="https://kit.fontawesome.com/c539d32fc7.js"
 			crossorigin="anonymous"
@@ -39,7 +39,7 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<main class="main-container">
 			<!-- header -->
 			<header class="welcome">
 				<h1 class="welcome__title">Welcome to KakaoTalk</h1>
@@ -51,12 +51,18 @@
 
 			<!-- form -->
 			<form action="friends.html" method="get" class="login-form">
-				<input type="text" name="username" placeholder="Email or phone number"/>
+				<input
+					type="text"
+					name="username"
+					placeholder="Email or phone number"
+				/>
 				<input type="password" name="password" placeholder="Password" />
-				<button class="logIn">Log In</button>
-				<button class="signUp">Sign Up</button>
-				<a href="#">Find Kakao Account or Password</a>
+				<button class="log-in">Log In</button>
+				<button class="sign-up">Sign Up</button>
+				<div class="find-info">
+					<a href="#">Find Kakao Account or Password</a>
+				</div>
 			</form>
-		</div>
+		</main>
 	</body>
 </html>
