@@ -9,26 +9,26 @@
 
 .welcome__title {
 	letter-spacing: 1.3px;
-	margin-bottom: var(--large-spacing);
+	margin-bottom: var(--l-spacing);
 }
 
 .welcome__text {
 	text-align: center;
 	font-size: var(--fs-l);
 	color: var(--dark-grey);
-	margin-bottom: var(--large-spacing);
+	margin-bottom: var(--l-spacing);
 }
 
 .login-form {
 	display: flex;
 	flex-direction: column;
-	margin-top: var(--large-spacing);
+	margin-top: var(--l-spacing);
 }
 
 .login-form input {
 	border-bottom: 1px solid var(--light-grey);
-	margin: var(--medium-spacing) 0;
-	padding-bottom: var(--large-spacing);
+	margin: var(--m-spacing) 0;
+	padding-bottom: var(--l-spacing);
 	font-size: var(--fs-l);
 }
 
@@ -38,7 +38,7 @@
 
 .log-in,
 .sign-up {
-  margin-top: var(--medium-spacing);
+  margin-top: var(--m-spacing);
   width: 100%;
   height: 50px;
   border-radius: 4px;
@@ -47,5 +47,5 @@
 
 .find-info {
     text-align: center;
-    margin-top:var(--large-spacing);
+    margin-top:var(--l-spacing);
 }
