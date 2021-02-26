@@ -9,3 +9,7 @@
   top: 0;
   width: 100vw;
 }
+
+.status-bar__col i {
+  margin-left: var(--s-spacing);
+}
