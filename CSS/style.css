@@ -1,8 +1,11 @@
 /* components */
-@import "/css/components/status-bar.css";
 @import "/CSS/components/welcome.css";
-@import "/css/components/main-header.css";
-@import "/css/components/user-component.css";
+@import "/CSS/components/status-bar.css";
+@import "/CSS/components/main-header.css";
+@import "/CSS/components/user-component.css";
+@import "/CSS/components/nav-bar.css";
+@import "/CSS/components/alarm.css";
+@import "/CSS/components/badge.css";
 
 /* screens */
 
@@ -41,7 +44,7 @@
 }
 
 body {
-	font-family: "Gamja Flower", cursive;
+	font-family: 'Sunflower', sans-serif;
 }
 
 a {
@@ -54,6 +57,10 @@ button {
 	border: none;
 }
 
+li {
+	list-style: none;
+}
+
 .main-container {
-	margin: var(--l-spacing);
+	margin: 110px var(--l-spacing);
 }
