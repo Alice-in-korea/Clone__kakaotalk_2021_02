@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- google font -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- font awesome -->
+		<link rel="stylesheet" href="/CSS/style.css" />
+		<script
+			src="https://kit.fontawesome.com/c539d32fc7.js"
+			crossorigin="anonymous"
+		></script>
+
+		<title>Chat</title>
+	</head>
+	<body>
+		<!-- status-bar -->
+		<div class="status-bar">
+			<div class="status-bar__col">
+				<span>No Service</span>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<div class="status-bar__col">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__col">
+				<i class="fas fa-lock"></i>
+				<span>20%</span>
+				<i class="fas fa-battery-quarter"></i>
+				<i class="fas fa-bolt"></i>
+			</div>
+		</div>
+
+		<!-- header -->
+		<header class="main-header">
+			<h1>채팅</h1>
+			<div class="main-header__icons">
+				<span><i class="fas fa-search"></i></span>
+				<span><i class="fas fa-user-plus"></i></span>
+				<span><i class="fas fa-music"></i></span>
+				<span><i class="fas fa-cog"></i></span>
+			</div>
+		</header>
+
+		<!-- main -->
+		<main class="main-container">
+			<!--user component row 1 -->
+			<div class="user-component">
+				<div class="user-component__col">
+					<img
+						class="user-component__avatar"
+						src="https://i.pinimg.com/564x/fd/d2/fc/fdd2fcb3350211e86c186d8b49b943ce.jpg"
+						alt="user-photo"
+					/>
+					<div class="user-component__text">
+            <div class="user-component__fixed">
+              <h4 class="user-component__title">Honey</h4>
+              <i class="fas fa-thumbtack"></i>
+            </div>
+						
+						<h6 class="user-component__subtitle">주말에 뭐 할까요?</h6>
+					</div>
+				</div>
+				<div class="user-component__col"><span>어제</span></div>
+			</div>
+
+			<!--user component row 2 -->
+			<div class="user-component">
+				<div class="user-component__col">
+					<img
+						class="user-component__avatar"
+						src="https://i.pinimg.com/564x/fd/d2/fc/fdd2fcb3350211e86c186d8b49b943ce.jpg"
+						alt="user-photo"
+					/>
+					<div class="user-component__text">
+						<h4 class="user-component__title">엄마</h4>
+						<h6 class="user-component__subtitle">그래 내일 보자 딸~</h6>
+					</div>
+				</div>
+				<div class="user-component__col"><span>오후 12:13</span></div>
+			</div>
+
+			<!--user component row 3 -->
+			<div class="user-component">
+				<div class="user-component__col">
+					<img
+						class="user-component__avatar"
+						src="https://i.pinimg.com/564x/fd/d2/fc/fdd2fcb3350211e86c186d8b49b943ce.jpg"
+						alt="user-photo"
+					/>
+					<div class="user-component__text">
+						<h4 class="user-component__title">아빠</h4>
+						<h6 class="user-component__subtitle">하나은행으로 2억 용돈 넣었다.</h6>
+					</div>
+				</div>
+				<div class="user-component__col"><span>2월24일</span></div>
+			</div>
+		</main>
+		<!-- navigation bar -->
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nave__btn">
+					<a class="nav__link" href="friends.html"
+						><i class="far fa-user"></i
+					></a>
+				</li>
+				<li class="nave__btn">
+					<a class="nav__link" href="chats.html">
+						<span class="nav__notification badge">1</span
+						><i class="fas fa-comment"></i
+					></a>
+				</li>
+				<li class="nave__btn">
+					<a class="nav__link" href="find.html"
+						><i class="fas fa-search"></i
+					></a>
+				</li>
+				<li class="nave__btn">
+					<a class="nav__link" href="more.html">
+						<span class="alarm"></span>
+						<span><i class="fas fa-ellipsis-h"></i></span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</body>
+</html>
