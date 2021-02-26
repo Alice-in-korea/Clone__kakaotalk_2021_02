@@ -1,0 +1,30 @@
+.nav {
+	background-color: var(--light-grey);
+	position: fixed;
+	bottom: 0;
+}
+
+.nav__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100vw;
+	height: 8vh;
+	align-items: center;
+	font-size: var(--fs-2xl);
+	border-top: 1px solid var(--grey);
+  padding: 0;
+}
+
+.nav__link {
+	color: black;
+	display: flex;
+	position: relative;
+}
+
+.nav__notification {
+	position: absolute;
+	right: -12px;
+	top: -8px;
+}
+
