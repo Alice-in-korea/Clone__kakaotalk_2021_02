@@ -1,17 +1,23 @@
-.user-component{
-  margin-top: 90px;
-  padding: var(--s-spacing) 0;
-  /* background-color: orange; */
+.user-component {
+	margin-top: 10px;
+	padding: var(--s-spacing) 0;
+	/* background-color: orange; */
 	display: flex;
-  justify-content: space-between;
-  align-items: center;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .user-component__col,
 .menu__col {
-display: flex;
-justify-content: space-between;
-align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.user-component__col span {
+  font-size: var(--fs-xs);
+	color: var(--grey);
 }
 
 .user-component__avatar {
@@ -22,26 +28,37 @@ align-items: center;
 	object-fit: cover;
 }
 
+.user-component__fixed {
+  display: flex;
+	justify-content: flex-start;
+	align-items: center;
+  margin-bottom: 5px;
+}
+
+.user-component__fixed i {
+  margin-left: var(--m-spacing);
+	color: var(--grey);
+  font-size: var(--fs-xs);
+}
+
 .user-component__title {
-  font-size: var(--fs-xl);
+	font-size: var(--fs-l);
 	font-weight: bold;
-	margin-bottom: 5px;
 }
 
 .user-component__subtitle {
-  font-size: var(--fs-m);
+	font-size: var(--fs-s);
 	color: var(--dark-grey);
 }
 
-.friend-component,
 .channel-component {
-  padding: var(--s-spacing) 0;
+	padding: var(--s-spacing) 0;
 	display: flex;
-  justify-content: space-between;
-  align-items: center;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.friend-component__avatar {
+.channel-component__avatar {
 	width: 40px;
 	height: 40px;
 	border-radius: 40%;
@@ -49,30 +66,22 @@ align-items: center;
 	object-fit: cover;
 }
 
-.friend-component__title,
 .channel-component__title {
-	font-size: var(--fs-l);
-  font-weight: bold;
+	font-size: var(--fs-m);
+	font-weight: bold;
 }
 
-.friend-component__subtitle {
-	font-size: var(--fs-s);
+.channel-component__subtitle {
+	font-size: var(--fs-xs);
 	color: var(--dark-grey);
 }
 
-.channel {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 5px;
-}
-
 .menu__col i {
-  margin-left: var(--m-spacing);
+	margin-left: var(--m-spacing);
 }
 
 .bar {
-  width:100%;
-  border-bottom:1px solid var(--grey);
-  margin: var(--m-spacing) 0;
+	width: 100%;
+	border-bottom: 1px solid var(--grey);
+	margin: var(--m-spacing) 0;
 }
