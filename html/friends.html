@@ -8,7 +8,7 @@
 		<!-- google font -->
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap"
 			rel="stylesheet"
 		/>
 
@@ -71,46 +71,43 @@
 			<div class="bar"></div>
 
 			<!-- menus -->
-			<div class="birth-friends">
-				<div class="menu__col">
-					<span>생일인 친구</span>
-					<i class="fas fa-chevron-down"></i>
-				</div>
+
+			<div class="menu__col">
+				<span>생일인 친구</span>
+				<i class="fas fa-chevron-down"></i>
 			</div>
 
 			<div class="bar"></div>
 
-			<!-- 즐겨찾기 -->
-			<div class="favorite-friends">
+			<div class="menu__col">
+				<span>즐겨찾기</span>
+				<i class="fas fa-chevron-down"></i>
+			</div>
+			<div class="channel-component">
 				<div class="menu__col">
-					<span>즐겨찾기</span>
-					<i class="fas fa-chevron-down"></i>
-				</div>
-				<div class="friend-component">
-					<div class="menu__col">
-						<img
-							class="friend-component__avatar"
-							src="https://i.pinimg.com/564x/fd/d2/fc/fdd2fcb3350211e86c186d8b49b943ce.jpg"
-							alt="user-photo"
-						/>
-						<div class="friend-component__text">
-							<h4 class="friend-component__title">Alice in Wonderland</h4>
-							<h6 class="friend-component__subtitle">❤</h6>
-						</div>
+					<img
+						class="channel-component__avatar"
+						src="https://i.pinimg.com/564x/fd/d2/fc/fdd2fcb3350211e86c186d8b49b943ce.jpg"
+						alt="user-photo"
+					/>
+					<div class="friend-component__text">
+						<h4 class="channel-component__title">Alice in Wonderland</h4>
+						<h6 class="channel-component__subtitle">❤</h6>
 					</div>
 				</div>
 			</div>
+
 			<div class="bar"></div>
 
 			<!-- channel row -->
-			<div class="channel">
+			<div class="menu__col">
 				<span>채널</span>
 				<i class="fas fa-chevron-up"></i>
 			</div>
 			<div class="channel-component">
 				<div class="menu__col">
 					<img
-						class="friend-component__avatar"
+						class="channel-component__avatar"
 						src="https://t1.daumcdn.net/cfile/tistory/99F3C5395D924FAD06"
 						alt="kakako"
 					/>
@@ -122,12 +119,39 @@
 				</div>
 			</div>
 			<div class="bar"></div>
-			<div class="list-friends">
-				<div class="menu__col">
-					<span>친구 660</span>
-					<i class="fas fa-chevron-down"></i>
-				</div>
+
+			<div class="menu__col">
+				<span>친구 660</span>
+				<i class="fas fa-chevron-down"></i>
 			</div>
 		</main>
+
+		<!-- navigation bar -->
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nave__btn">
+					<a class="nav__link" href="friends.html"
+						><i class="fas fa-user"></i
+					></a>
+				</li>
+				<li class="nave__btn">
+					<a class="nav__link" href="chats.html">
+						<span class="nav__notification badge">1</span
+						><i class="far fa-comment"></i
+					></a>
+				</li>
+				<li class="nave__btn">
+					<a class="nav__link" href="find.html"
+						><i class="fas fa-search"></i
+					></a>
+				</li>
+				<li class="nave__btn">
+					<a class="nav__link" href="more.html">
+						<span class="alarm"></span>
+						<span><i class="fas fa-ellipsis-h"></i></span>
+					</a>
+				</li>
+			</ul>
+		</nav>
 	</body>
 </html>
